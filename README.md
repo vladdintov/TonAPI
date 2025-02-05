@@ -13,7 +13,9 @@
 from tonapi import TonAPI
 api = TonAPI()
 
-response = api.get_rate("USD", "TON")
+exchange_rate = api.get_rate("USD", "TON")
+different = api.get_diff("USD", "TON", "24h")
+print(exchange_rate, different)
 ```
 
 ## Установка
