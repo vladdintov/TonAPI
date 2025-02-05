@@ -1,15 +1,7 @@
-from enum import Enum
 from typing import Any, Literal
 
 from aiohttp import ClientSession
 
-
-class Diff(Enum):
-    """Diff class."""
-
-    ONE_DAY = "1d"
-    SEVEN_DAYS = "7d"
-    THIRTY_DAYS = "30d"
 
 class TonAPI:
     """API class."""
