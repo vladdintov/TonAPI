@@ -1,2 +1,24 @@
-# TonAPI
-A simple asynchronous client for receiving cryptocurrency rates using the TON API.
+# Jetton Rate API
+
+Этот проект предоставляет простой асинхронный клиент для получения курсов криптовалют с использованием TON API. Клиент позволяет извлекать обменный курс между конкретными токенами и валютами.
+
+## Особенности
+
+- Асинхронные запросы с использованием aiohttp
+- Удобный интерфейс для получения курсов
+- Поддержка нескольких токенов и валют
+
+## Пример кода
+```python
+from tonapi import TonAPI
+api = TonAPI()
+
+response = api.get_rate("USD", "TON")
+```
+
+## Установка
+
+1. Клонируйте репозиторий: `git clone https://github.com/vladdintov/TonAPI/`
+2. Установите зависимости: `poetry install`
+3. Запустите приложение: `python main.py`
+
