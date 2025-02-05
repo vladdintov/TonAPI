@@ -20,7 +20,7 @@ print(exchange_rate, different)
 
 ## Установка
 
-1. Клонируйте репозиторий: `git clone https://github.com/vladdintov/TonAPI/`
+1. Клонируйте репозиторий: `git clone https://github.com/vladdintov/TonAPI.git`
 2. Установите зависимости: `poetry install`
 3. Запустите приложение: `python main.py`
 
